@@ -1,0 +1,51 @@
+July 15th, 2015, David Chiu
+This version has been modified for Puget Sound's CS475 course
+Project 2: Priority Scheduling and Aging
+
+--- With AGING disabled
+
+Hello XINU WORLD!
+This is process 4 (PRINTER-C)
+This is process 4 (PRINTER-C)
+This is process 4 (PRINTER-C)
+This is process 3 (PRINTER-B)
+This is process 5 (PRINTER-D)
+bigargs(10, 20, 30, 40, 50, 60) == 210
+This is process 3 (PRINTER-B)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+This is process 2 (PRINTER-1)
+
+
+All user processes have completed.
+
+--- With AGING enabled
+
+Hello XINU WORLD!
+This is process 4 (PRINTER-C)
+This is process 4 (PRINTER-C)
+This is process 4 (PRINTER-C)
+This is process 3 (PRINTER-B)
+This is process 5 (PRINTER-D)
+bigargs(10, 20, 30, 40, 50, 60) == 210
+This is process 5 (PRINTER-D)
+This is process 3 (PRINTER-B)
+This is process 5 (PRINTER-D)
+This is process 2 (PRINTER-1)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+This is process 5 (PRINTER-D)
+
+
+All user processes have completed.
