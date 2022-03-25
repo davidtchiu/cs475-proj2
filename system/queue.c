@@ -106,18 +106,10 @@ pid32 enqueue(pid32 pid, struct queue *q)
 pid32 dequeue(struct queue *q)
 {
 	pid32 pid; // ID of process removed
-
-	// TODO - return EMPTY if queue is empty
 	if (isempty(q))
 	{
 		return EMPTY;
 	}
-
-	// TODO - get the head entry of the queue
-
-	// TODO - unlink the head entry from the rest
-
-	// TODO - free up the space on the heap
 
 	// save pointer to head entry
 	struct qentry *head = q->head;
